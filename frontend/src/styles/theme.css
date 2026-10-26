@@ -1,0 +1,39 @@
+/* Couleurs et réglages de base. Le thème sombre remplace les valeurs ci-dessous. */
+:root {
+  --bg: #f5f6fb;
+  --surface: #ffffff;
+  --surface-2: #f0f1f9;
+  --text: #1a1d3a;
+  --muted: #666b8d;
+  --border: #e4e6f2;
+  --primary: #5b5bd6;
+  --primary-hover: #4a4ac0;
+  --primary-soft: #ececff;
+  --success: #16a34a;
+  --success-soft: #dcfce7;
+  --danger: #dc2626;
+  --danger-soft: #fee2e2;
+  --warning-soft: #fef3c7;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(20, 24, 60, 0.06), 0 4px 16px rgba(20, 24, 60, 0.06);
+  --shadow-lg: 0 10px 30px rgba(20, 24, 60, 0.15);
+}
+
+[data-theme='dark'] {
+  --bg: #0f1120;
+  --surface: #181b30;
+  --surface-2: #20243d;
+  --text: #eceefc;
+  --muted: #9aa0c4;
+  --border: #2b3052;
+  --primary: #8080f0;
+  --primary-hover: #9696ff;
+  --primary-soft: #26294d;
+  --success: #4ade80;
+  --success-soft: #153324;
+  --danger: #f87171;
+  --danger-soft: #3b1a1d;
+  --warning-soft: #3a2f14;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
